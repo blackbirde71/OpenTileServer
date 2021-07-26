@@ -33,7 +33,7 @@ touch /root/auth.txt
 function style_osm_bright(){
 	cd /usr/local/share/maps/style
 	if [ ! -d 'osm-bright-master' ]; then
-		wget --no-check-certificate https://github.com/mapbox/osm-bright/archive/master.zip
+		wget --no-check-certificate https://github.com/blackbirde71/osm-bright/archive/master.zip
 		unzip master.zip;
 		mkdir -p osm-bright-master/shp
 		rm master.zip
